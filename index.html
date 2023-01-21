@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer-Manik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                price: '#FABE4C',
+                cardt: '#363958',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+   <header class="bg-amber-100 py-6 ">
+        <!-- this is a nav stret-->
+        <div class="container md:flex lg:flex  justify-between items-center pb-16 px-5 mx-auto">
+            <div>
+                <img class="w-80 h-12" src="images/logo.png" alt="">
+            </div>
+            <div class=" flex items-center  gap-5">
+                <h1 class="text-2xl font-semibold"><a href="http://127.0.0.1:5500/index.html">Home</a></h1>
+                <h1 class="text-2xl font-semibold"><a href="#woman">Woman</a></h1>
+                <h1 class="text-2xl font-semibold"><a href="#man">Man</a></h1>
+                <button class="text-2xl font-semibold text-white p-1 px-3 rounded-lg  bg-gradient-to-r from-[#A4BC46] to-[#85A019] ">Log In</button>
+            </div>
+        </div>
+        <!-- this is a benner stret -->
+        <div class="container mx-auto  md:flex items-center justify-between">
+            <div class="space-y-6 px-4">
+                <h1 class="uppercase text-7xl text-[#363958] font-semibold"><span class="text-[#FABE4C]">Be the Penguins</span>
+                    <br>
+                    of Winter</h1>
+                    <p class="text-base text-gray-400">Lorem Ipsum is simply dummy text of the printing 
+                        <br> 
+                        and typesetting industry.</p>
+                        <button class="py-3 px-5 rounded-lg  text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] ...">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" fill="white" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
+                              
+                              BUY NOW</button>
+            </div>
+            <div class="px-4">
+                <img class="w-3/4 mt-5 md:mt-0 md:w-full" src="images/model.png" alt="">
+            </div>
+        </div>
+   </header>
+
+
+</body>
+</html>
